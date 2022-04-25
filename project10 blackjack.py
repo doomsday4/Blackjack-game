@@ -23,7 +23,7 @@ while play == "y" :
   print(f"Your final hand: {user_cards}, final score: {c1+c2+c3}")
   comp2 = random.choice(cards)
   comp += [comp2]
-  if comp1+comp2 < c1+c2+c3:
+  if comp1+comp2 < c1+c2+c3 or comp1+comp2<17:
     comp3 = random.choice(cards)
     comp += [comp3]
     score = comp1 + comp2 + comp3
