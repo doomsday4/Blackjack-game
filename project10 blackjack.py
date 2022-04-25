@@ -36,6 +36,8 @@ while play == "y" :
    print("You went over. You lose 😭")
   elif score>21:
     print("You win!")
+  elif c1+c2+c3 == score:
+    print("Draw.")
   elif score>c1+c2+c3:
    print("You lose 😭")
   else:
